@@ -43,8 +43,8 @@ function App() {
     <div className="app">
       <Navbar/>
       <div className='container'>
-      <Route path='/movie/:id' component={MovieDetail} />
-      <Route path='/' exact render={(props) => (
+      <Route path='/movie-finder-react/movie/:id' component={MovieDetail} />
+      <Route path='/movie-finder-react/' exact render={(props) => (
         <>
           <SearchBar onSearch={fetchMovies}/>
           <Movies movies={movies} />
