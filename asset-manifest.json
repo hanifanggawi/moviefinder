@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/movie-finder-react/static/css/main.057e9ebc.chunk.css",
-    "main.js": "/movie-finder-react/static/js/main.53e30fdb.chunk.js",
-    "main.js.map": "/movie-finder-react/static/js/main.53e30fdb.chunk.js.map",
+    "main.js": "/movie-finder-react/static/js/main.d69a7c39.chunk.js",
+    "main.js.map": "/movie-finder-react/static/js/main.d69a7c39.chunk.js.map",
     "runtime-main.js": "/movie-finder-react/static/js/runtime-main.3f8b1dd5.js",
     "runtime-main.js.map": "/movie-finder-react/static/js/runtime-main.3f8b1dd5.js.map",
     "static/js/2.8493a920.chunk.js": "/movie-finder-react/static/js/2.8493a920.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3f8b1dd5.js",
     "static/js/2.8493a920.chunk.js",
     "static/css/main.057e9ebc.chunk.css",
-    "static/js/main.53e30fdb.chunk.js"
+    "static/js/main.d69a7c39.chunk.js"
   ]
 }
