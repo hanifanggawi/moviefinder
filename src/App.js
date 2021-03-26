@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {HashRouter as Router, Route} from 'react-router-dom'
 import Navbar from './components/Navbar'
 import SearchBar from './components/SearchBar'
 import Movies from './components/Movies'
@@ -42,8 +42,8 @@ function App() {
     <div className="app">
       <Navbar/>
       <div className='container'>
-      <Route path='/moviefinder/movie/:id' component={MovieDetail} />
-      <Route path='/moviefinder' exact render={(props) => (
+      <Route path='/movie/:id' component={MovieDetail} />
+      <Route path='/' exact render={(props) => (
         <>
           <SearchBar onSearch={fetchMovies}/>
           <Movies movies={movies} />
