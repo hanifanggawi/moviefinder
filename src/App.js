@@ -25,7 +25,6 @@ function App() {
 
   // Fetch Movies by keyword from tmdb api
   const fetchMovies = async (keyword) => {
-    console.log(api_key)
     if (keyword) {
       const res = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${api_key}&query=${keyword}`)
       const data = await res.json()
@@ -43,8 +42,8 @@ function App() {
     <div className="app">
       <Navbar/>
       <div className='container'>
-      <Route path='/movie-finder-react/movie/:id' component={MovieDetail} />
-      <Route path='/movie-finder-react/' exact render={(props) => (
+      <Route path='/moviefinder/movie/:id' component={MovieDetail} />
+      <Route path='/moviefinder' exact render={(props) => (
         <>
           <SearchBar onSearch={fetchMovies}/>
           <Movies movies={movies} />

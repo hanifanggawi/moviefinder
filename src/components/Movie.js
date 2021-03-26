@@ -1,9 +1,9 @@
-import alt from '../images/NotFoundAlt.png'
+import alt from '../images/NotFoundAlt200.png'
 
 const Movie = ({id, movie}) => {
     return (
         <div className="movie">
-            <a href={`movie/${id}`}>
+            <a href={`/moviefinder/movie/${id}`}>
                 <img src={(movie.poster_path) ? `https://image.tmdb.org/t/p/w200/${movie.poster_path}` : alt} alt={movie.title}/>
             </a>
             <h3 className="movie-title"> {movie.title} </h3>

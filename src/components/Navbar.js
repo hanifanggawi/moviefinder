@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <a href="/movie-finder-react/"><label className="logotype"> MOVIE FINDER</label></a>
+            <a href="/moviefinder/"><label className="logotype"> MOVIE FINDER</label></a>
         </nav>
     )
 }

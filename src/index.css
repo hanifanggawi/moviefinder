@@ -15,22 +15,24 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3em 0em;
+  padding: 0 0 3em 0;
   overflow-wrap: break-word;
 }
 
 .navbar {
-  justify-content: space-between;
+  position: sticky;
+  top : 0px;
+  justify-content: center;
   display: flex;
   width: 100%;
-  background-color: #111111;
+  background-color: #040e3b;
   color: white;
   padding: 1em 8em;
 }
 
 .navbar ul {
   display: flex;
-  align-self: flex-end;
+  align-self: center;
 }
 .navbar a {
   color: white;
@@ -45,7 +47,7 @@ body {
 .searchbar {
   display: flex;
   padding-bottom: 2em;
-  /* border-radius: 0; */
+  padding-top: 3em;
 }
 
 .searchbox {
@@ -79,7 +81,7 @@ body {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   cursor: pointer;
-  background-color: #150445;
+  background-color: #041045;
   color: white;
 }
 
@@ -102,11 +104,6 @@ body {
 .movie-detail-contents {
   display: flex;
   padding: 4em 8em;
-  /* background-color: rgb(197, 197, 197); */
-  /* background-repeat: no-repeat; */
-  /* background-size: 100%; */
-  /* background-size: cover; */
-  /* opacity: 50%; */
 }
 
 .movie-detail-page {
@@ -114,8 +111,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  /* background-size: cover; */
-  /* opacity: 50%; */
 }
 
 .backdrop-cover {
@@ -157,10 +152,14 @@ body {
   background-color: #1a1a1a;
   color:white;
   font-weight: bold;
+  height: 55px;
+  width: 55px;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
   border-radius: 50%;
-  width: fit-content;
-  padding: 7px 7px;
-  overflow-wrap: initial;
 }
 
 .user-score {

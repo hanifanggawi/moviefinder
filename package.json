@@ -15,7 +15,7 @@
     "react-scripts": "4.0.2",
     "web-vitals": "^1.1.0"
   },
-  "homepage": "https://hanifanggawi.github.io/movie-finder-react/",
+  "homepage": "https://hanifanggawi.github.io/moviefinder/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
